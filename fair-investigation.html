@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공정조사센터 | 법정교육연구소 부설</title>
+    <meta name="description" content="법정교육연구소 부설 공정조사센터. 사실관계 조사, 사건 사전분석, 외부조사와 사건대응 실무교육을 제공합니다.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        body { font-family: 'Pretendard', sans-serif; }
+        .bg-brand-blue { background-color: #0f172a; } 
+        .text-brand-orange { color: #f97316; } 
+        .bg-brand-orange { background-color: #f97316; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 md:gap-3 hover:opacity-80 transition" title="법정교육연구소 메인 홈페이지로 돌아가기">
+                <img src="images/logo-legal-education.png" alt="법정교육연구소 로고" class="h-10 md:h-12 w-auto object-contain">
+                <span class="text-gray-300 text-xl md:text-2xl font-light mb-1">|</span>
+                <span class="text-xl md:text-2xl font-extrabold text-brand-orange tracking-tight">공정조사센터</span>
+            </a>
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold text-gray-600">
+                <a href="#philosophy" class="hover:text-blue-900">브랜드 철학</a>
+                <a href="#services" class="hover:text-blue-900">핵심 서비스</a>
+                <a href="#process" class="hover:text-blue-900">조사 원칙</a>
+                <a href="#faq" class="hover:text-blue-900">자주 묻는 질문</a>
+                <a href="#contact" class="text-brand-orange hover:text-orange-700">사건 접수</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-brand-blue text-white py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                누구의 편도 아닌,<br>
+                <span class="text-brand-orange">사실의 편에서 조사합니다.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
+                감정적 호소를 주장에 머물게 하지 않습니다.<br>
+                말 속에서 사건을 발견하고, 뒤엉킨 사실관계를 풀어 객관적인 자료로 만듭니다.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="inline-block bg-brand-orange text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-orange-600 transition duration-300">
+                    초기 상담 문의하기
+                </a>
+                <button type="button" id="openReportModalBtn" class="inline-block bg-white text-brand-blue font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                    📂 조사보고서 샘플 열기
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="philosophy" class="py-20 px-4 bg-white">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">결론을 정해놓은 조사는 공정하지 않습니다.</h2>
+            <div class="w-16 h-1 bg-brand-orange mx-auto mb-8"></div>
+            <p class="text-gray-600 text-lg leading-relaxed text-left md:text-center">
+                오랜 기간 폭력예방교육과 성희롱 행위자 인식개선교육을 진행하며 사건의 전후를 지켜보았습니다. 
+                결론이 정해진 듯한 조사, 충분하지 않은 소명 기회, 확인되지 않은 진술의 사실화는 당사자와 조직 모두에게 더 큰 분쟁을 남깁니다.<br><br>
+                34년간 축적한 범죄 수사와 사실 확인 경험을 바탕으로, 신고인과 피신고인 어느 한쪽이 아니라 <strong>오직 '사실의 편'</strong>에 섭니다. 
+                확인된 사실과 확인되지 않은 사실을 엄격히 구분하여 공정한 절차를 지킵니다.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-2">공정조사센터 핵심 서비스</h2>
+                <p class="text-gray-500">사실관계 조사부터 조직 개선 교육까지 체계적으로 지원합니다.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-brand-orange text-4xl mb-4">📝</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">사건 사전분석 및 쟁점정리</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        쏟아지는 긴 이야기와 방대한 자료를 사건일지, 인물관계, 핵심 주장, 증빙 자료로 구조화하여 조사 과제를 명확히 정리합니다.
+                    </p>
+                    <span class="text-xs font-semibold text-blue-900 bg-blue-50 px-3 py-1 rounded-full">개인 및 기관 대상</span>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-brand-orange text-4xl mb-4">🔍</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">기관 외부 사실조사</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        자체 조사가 부담스러운 소규모 기관을 대신합니다. 관련자 면담 및 자료 대조를 통해 제3자가 판단할 수 있는 객관적인 조사보고서를 작성합니다.
+                    </p>
+                    <span class="text-xs font-semibold text-blue-900 bg-blue-50 px-3 py-1 rounded-full">공공기관, 복지시설, 기업</span>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-brand-orange text-4xl mb-4">💡</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">조사 및 사건대응 실무 교육</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        질문법, 진술 정리 등 초기 대응 방안을 교육합니다. 조사 후 드러난 취약점을 분석하여 재발방지 및 조직문화 개선 교육으로 연결합니다.
+                    </p>
+                    <span class="text-xs font-semibold text-blue-900 bg-blue-50 px-3 py-1 rounded-full">관리자 및 고충처리 담당자</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">우리의 3대 원칙</h2>
+            <ul class="space-y-4 mb-16 text-gray-700 font-medium">
+                <li class="flex items-start"><span class="text-brand-orange mr-3">✔</span> 결론을 미리 정하지 않고, 모두에게 필요한 진술 기회와 절차적 공정을 보장합니다.</li>
+                <li class="flex items-start"><span class="text-brand-orange mr-3">✔</span> 사실, 주장, 추측, 평가를 엄격하게 구분합니다.</li>
+                <li class="flex items-start"><span class="text-brand-orange mr-3">✔</span> 의뢰기관이 원하는 결론을 억지로 써주는 조사자가 되지 않습니다.</li>
+            </ul>
+
+            <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">사실관계 조사 프로세스</h3>
+            <div class="bg-gray-50 rounded-xl p-8 border border-gray-200">
+                <ol class="relative border-l border-blue-900 ml-4">
+                    <li class="mb-6 ml-6">
+                        <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-900 rounded-full -left-3 ring-4 ring-white text-white text-xs font-bold">1</span>
+                        <h4 class="font-bold text-gray-900">사건 접수 및 초기 상담</h4>
+                    </li>
+                    <li class="mb-6 ml-6">
+                        <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-900 rounded-full -left-3 ring-4 ring-white text-white text-xs font-bold">2</span>
+                        <h4 class="font-bold text-gray-900">사건 쟁점 및 시간순 사건일지 정리</h4>
+                    </li>
+                    <li class="mb-6 ml-6">
+                        <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-900 rounded-full -left-3 ring-4 ring-white text-white text-xs font-bold">3</span>
+                        <h4 class="font-bold text-gray-900">관련자 면담 (신고인 → 피신고인 → 참고인)</h4>
+                    </li>
+                    <li class="mb-6 ml-6">
+                        <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-900 rounded-full -left-3 ring-4 ring-white text-white text-xs font-bold">4</span>
+                        <h4 class="font-bold text-gray-900">진술 상호 비교 및 객관적 자료 대조</h4>
+                    </li>
+                    <li class="ml-6">
+                        <span class="absolute flex items-center justify-center w-6 h-6 bg-brand-orange rounded-full -left-3 ring-4 ring-white text-white text-xs font-bold">5</span>
+                        <h4 class="font-bold text-brand-orange">사실관계 조사보고서 작성</h4>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-2">자주 묻는 질문 (FAQ)</h2>
+                <p class="text-gray-500">궁금하신 내용을 클릭하여 확인해 보세요.</p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button type="button" class="faq-toggle w-full px-6 py-4 text-left font-bold text-gray-900 flex justify-between items-center hover:bg-gray-50 transition">
+                        <span>Q1. 자체 조사가 부담스러운데 외부 기관 조사는 어떻게 진행되나요?</span>
+                        <span class="text-brand-orange transform transition-transform duration-200 faq-icon">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        내부 직원끼리 조사를 진행할 경우 공정성 시비나 2차 피해 우려가 큽니다. 공정조사센터는 독립적인 제3자 입장 객관적 조사원칙에 따라 신고인 및 피신고인 면담, 증거 대조를 거쳐 기관장이 판단할 수 있는 전문 조사보고서를 제공합니다.
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button type="button" class="faq-toggle w-full px-6 py-4 text-left font-bold text-gray-900 flex justify-between items-center hover:bg-gray-50 transition">
+                        <span>Q2. 신고 접수 후 조사부터 보고서 완료까지 기간은 얼마나 걸리나요?</span>
+                        <span class="text-brand-orange transform transition-transform duration-200 faq-icon">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        사건의 규모와 쟁점의 복잡성에 따라 다르지만, 일반적으로 초기 쟁점 정리는 3~5일, 관련자 면담 및 자료 대조는 1~2주 내외가 소요됩니다. 신속하고 철저한 절차로 기간을 최소화합니다.
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button type="button" class="faq-toggle w-full px-6 py-4 text-left font-bold text-gray-900 flex justify-between items-center hover:bg-gray-50 transition">
+                        <span>Q3. 비밀유지와 보안은 어떻게 보장되나요?</span>
+                        <span class="text-brand-orange transform transition-transform duration-200 faq-icon">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        조사 과정에서 취득한 자료와 진술은 관련 법령과 비밀유지 원칙에 따라 필요한 범위에서 신중하게 관리합니다.
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <button type="button" class="faq-toggle w-full px-6 py-4 text-left font-bold text-gray-900 flex justify-between items-center hover:bg-gray-50 transition">
+                        <span>Q4. 소규모 기업이나 복지시설도 의뢰할 수 있나요?</span>
+                        <span class="text-brand-orange transform transition-transform duration-200 faq-icon">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        네, 가능합니다. 전담 고충처리 부서가 없는 소규모 기업, 공공기관, 복지시설, 학교 등에서 공정하고 전문적인 사실조사가 필요할 때 언제든 의뢰하실 수 있습니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-4 bg-blue-900 text-white">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <img src="images/book-report-day-cover.png" alt="김범일 저서 신고가 들어온 날 책 표지" class="w-48 md:w-56 h-auto rounded shadow-xl border border-gray-700">
+            <div class="flex-1 text-center md:text-left">
+                <h2 class="text-2xl font-bold mb-4 text-brand-orange">전문가의 시선으로 쓴 사건 대응의 기준</h2>
+                <h3 class="text-3xl font-bold mb-4">『신고가 들어온 날』</h3>
+                <p class="text-gray-300 leading-relaxed mb-6">
+                    성희롱, 고충, 조직 내 분쟁 등 신고가 접수된 순간부터 조사가 마무리될 때까지.<br>
+                    현장 경험이 담긴 저서를 통해 공정조사센터의 흔들리지 않는 원칙과 전문성을 먼저 확인해 보실 수 있습니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-3">공정조사센터 사건 접수 및 초기 상담</h2>
+                    <p class="text-gray-500">민감한 사건정보 보호를 위해 초기 상담은 전화 또는 이메일로 진행합니다.</p>
+                </div>
+                <div class="rounded-xl border border-orange-200 bg-orange-50 p-6 text-center">
+                    <p class="font-bold text-gray-900 mb-2">전화·이메일 초기 상담 안내</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">민감한 사건 내용은 이 페이지에 입력하지 마시고, 먼저 전화 또는 이메일로 초기 상담을 요청해 주세요.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                    <a href="tel:01043141236" class="rounded-xl bg-brand-blue text-white p-5 text-center font-bold hover:bg-slate-800 transition">전화 상담<br><span class="text-lg">010-4314-1236</span></a>
+                    <a href="mailto:janpani@naver.com" class="rounded-xl bg-white border-2 border-blue-900 text-blue-900 p-5 text-center font-bold hover:bg-blue-50 transition">이메일 상담<br><span class="text-lg">janpani@naver.com</span></a>
+                </div>
+            </div>
+
+            <!-- Report Sample Modal -->
+            <div id="reportModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-4">
+                <div class="bg-white rounded-2xl p-8 max-w-2xl w-full mx-auto shadow-2xl relative max-h-[90vh] overflow-y-auto">
+                    <div class="flex justify-between items-center mb-6 border-b pb-4">
+                        <div class="flex items-center gap-2">
+                            <img src="images/logo-legal-education.png" alt="로고" class="h-6 w-auto">
+                            <h3 class="text-xl font-bold text-gray-900">공정조사센터 조사보고서 샘플</h3>
+                        </div>
+                        <button type="button" id="closeReportModalBtn" class="text-gray-400 hover:text-gray-600 text-2xl font-bold">&times;</button>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm text-gray-700 leading-relaxed">
+                        <div class="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                            <h4 class="font-bold text-blue-900 mb-1">📋 1. 사건 개요</h4>
+                            <p>본 건은 OO기관 내에서 발생한 직장 내 괴롭힘 신고 건으로, 신고인 A와 피신고인 B 간의 진술 대립 및 관련 참고인 진술을 토대로 객관적인 사실관계를 조사함.</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-1">🔍 2. 핵심 쟁점 및 진술 비교</h4>
+                            <p>• 쟁점 1: 업무 시간 외 메신저 지시 여부 (신고인: 상습적 지시 주장 vs 피신고인: 긴급 업무 관련 예외적 소통 주장)<br>• 쟁점 2: 공개석상 모욕적 발언 여부 (참고인 면담 및 업무일지 대조 결과 일부 발언 사실 확인)</p>
+                        </div>
+                        <div class="bg-orange-50 p-4 rounded-lg border border-orange-100">
+                            <h4 class="font-bold text-orange-900 mb-1">⚖️ 3. 조사자 판단 및 권고사항</h4>
+                            <p>확인된 사실과 확인되지 않은 추측성 주장을 엄격히 분리하였으며, 해당 기관 내 소통 체계 개선 및 재발방지 교육 실시를 강력히 권고함.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 pt-4 border-t flex justify-end">
+                        <button type="button" id="closeReportModalBtnFooter" class="bg-brand-blue text-white font-bold px-6 py-2.5 rounded-lg hover:bg-slate-800 transition">
+                            닫기
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="site-footer" class="bg-gray-900 text-gray-400 py-12 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl text-white font-bold mb-6">사실관계 조사나 사건 대응 교육이 필요하십니까?</h2>
+            <p class="mb-8">어떤 사건이든 문의해 주시면 객관적인 시선으로 안내해 드리겠습니다.</p>
+            <div class="inline-block bg-white text-gray-900 p-6 rounded-lg text-left shadow-lg">
+                <div class="flex items-center gap-2 border-b border-gray-200 pb-3 mb-4">
+                    <img src="images/logo-legal-education.png" alt="법정교육연구소 로고" class="h-6 w-auto object-contain">
+                    <span class="text-gray-300 text-sm">|</span>
+                    <span class="font-extrabold text-brand-orange text-lg">공정조사센터</span>
+                </div>
+                <p class="text-sm mb-2 font-medium">📞 상담 문의: <a href="tel:01043141236" class="hover:text-brand-orange transition">010-4314-1236</a></p>
+                <p class="text-sm font-medium">📧 이메일: <a href="mailto:janpani@naver.com" class="hover:text-brand-orange transition">janpani@naver.com</a></p>
+            </div>
+            <p class="text-xs mt-8 leading-relaxed">법정교육연구소 · 대표 김범일 · 사업자등록번호 826-91-02107</p>
+            <p class="text-xs mt-3">&copy; 2026 법정교육연구소 | 공정조사센터. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ 아코디언 열기/닫기 기능
+            const faqToggles = document.querySelectorAll('.faq-toggle');
+            faqToggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('.faq-icon');
+                    
+                    // 다른 열린 아코디언 닫기 (선택사항)
+                    // faqToggles.forEach(otherToggle => {
+                    //     if (otherToggle !== toggle) {
+                    //         otherToggle.nextElementSibling.classList.add('hidden');
+                    //         otherToggle.querySelector('.faq-icon').style.transform = 'rotate(0deg)';
+                    //     }
+                    // });
+
+                    content.classList.toggle('hidden');
+                    if (content.classList.contains('hidden')) {
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+
+            // 조사보고서 샘플 모달 열기/닫기
+            const openReportModalBtn = document.getElementById('openReportModalBtn');
+            const reportModal = document.getElementById('reportModal');
+            const closeReportModalBtn = document.getElementById('closeReportModalBtn');
+            const closeReportModalBtnFooter = document.getElementById('closeReportModalBtnFooter');
+
+            if (openReportModalBtn && reportModal) {
+                openReportModalBtn.addEventListener('click', () => {
+                    reportModal.classList.remove('hidden');
+                });
+                
+                const closeReportModal = () => {
+                    reportModal.classList.add('hidden');
+                };
+
+                closeReportModalBtn.addEventListener('click', closeReportModal);
+                closeReportModalBtnFooter.addEventListener('click', closeReportModal);
+                
+                reportModal.addEventListener('click', (e) => {
+                    if (e.target === reportModal) {
+                        closeReportModal();
+                    }
+                });
+            }
+
+        });
+    </script>
+</body>
+</html>
