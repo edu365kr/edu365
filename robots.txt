@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://edu365.kr/sitemap.xml
