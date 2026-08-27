@@ -38,6 +38,10 @@ footer{padding:48px 0 22px;background:#061b30;color:#dbe6ef}.footer-grid{display
 .external-channel:not(.brand-logo-link){color:var(--orange)!important}
 .external-channel:not(.brand-logo-link):hover{color:#c44f08!important;text-decoration:underline;text-underline-offset:4px}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #ffad73;outline-offset:3px}
+.form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.submit:disabled{cursor:wait;opacity:.72;transform:none}
+.form-status.success{color:#176b3a;font-weight:850}
+.form-status.error{color:#b52d1e;font-weight:850}
 
 @media(max-width:1200px) and (min-width:1001px){.official-logo img{width:250px}.nav nav{gap:16px}.nav{gap:16px}}
 @media(max-width:900px){.career-groups{grid-template-columns:1fr}}
