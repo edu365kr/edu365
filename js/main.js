@@ -66,19 +66,31 @@ form.addEventListener('submit', async event => {
     return;
   }
 
-  const data = new FormData(form);
-  const accessKey = String(data.get('access_key') || '').trim();
-  const fieldNames = [
-    '기관명', '담당자명', '연락처', '이메일', '교육대상', '예상 인원',
-    '교육주제', '희망 교육일', '희망 교육시간', '예산', '문의내용'
+  const formData = new FormData(form);
+  const accessKey = String(formData.get('access_key') || '').trim();
+  const messageFields = [
+    ['기관명', '기관명'],
+    ['담당자명', '담당자명'],
+    ['연락처', '연락처'],
+    ['이메일', '이메일'],
+    ['교육대상', '교육대상'],
+    ['예상인원', '예상 인원'],
+    ['교육주제', '교육주제'],
+    ['희망교육일', '희망 교육일'],
+    ['희망교육시간', '희망 교육시간'],
+    ['예산', '예산'],
+    ['문의내용', '문의내용']
   ];
-  const message = fieldNames
-    .map(name => `${name}: ${String(data.get(name) || '').trim()}`)
+  const message = messageFields
+    .map(([label, fieldName]) => `${label}: ${String(formData.get(fieldName) || '').trim()}`)
     .join('\n');
-
-  data.set('subject', `[법정교육 문의] ${data.get('기관명')} / ${data.get('교육주제')}`);
-  data.set('email', String(data.get('이메일') || '').trim());
+  const data = new FormData();
+  data.set('access_key', accessKey);
+  data.set('from_name', '법정교육연구소 홈페이지');
+  data.set('subject', `[법정교육 문의] ${formData.get('기관명')} / ${formData.get('교육주제')}`);
+  data.set('replyto', String(formData.get('이메일') || '').trim());
   data.set('message', message);
+  if (formData.get('botcheck')) data.set('botcheck', String(formData.get('botcheck')));
 
   submitButton.disabled = true;
   submitButton.textContent = '전송 중...';
