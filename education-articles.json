@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-07T07:46:44.045Z",
+  "updated": "2026-11-07T07:51:42.232Z",
   "posts": [
     {
       "id": "native-92b855cbe3c6",
@@ -9,9 +9,9 @@
       "description": "직장 내 괴롭힘 예방교육에서 다룰 핵심 개념과 업무상 지시와 괴롭힘을 구분하는 기준, 신고·조사 과정에서 직원이 지켜야 할 실무 원칙을 설명합니다.",
       "path": "/guides/2026-11-07-workplace-harassment-92b855cbe3c6",
       "published": "2026-11-07T07:46:42.938Z",
-      "modified": "2026-11-07T07:46:42.938Z",
+      "modified": "2026-11-07T07:51:42.231Z",
       "field": "직장 내 괴롭힘 예방교육",
-      "organization": "기타 적합한 조직",
+      "organization": "",
       "sourceUrls": [
         {
           "url": "https://www.law.go.kr/DRF/lawService.do?MST=265959&OC=unicpla&efYd=20251023&mobileYn=Y&target=law&type=HTML",
