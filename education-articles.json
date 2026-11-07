@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "site": "https://edu365.kr",
+  "updated": "2026-11-07T07:46:44.045Z",
+  "posts": [
+    {
+      "id": "native-92b855cbe3c6",
+      "title": "직장 내 괴롭힘 예방교육, 전 직원이 배워야 할 판단 기준",
+      "description": "직장 내 괴롭힘 예방교육에서 다룰 핵심 개념과 업무상 지시와 괴롭힘을 구분하는 기준, 신고·조사 과정에서 직원이 지켜야 할 실무 원칙을 설명합니다.",
+      "path": "/guides/2026-11-07-workplace-harassment-92b855cbe3c6",
+      "published": "2026-11-07T07:46:42.938Z",
+      "modified": "2026-11-07T07:46:42.938Z",
+      "field": "직장 내 괴롭힘 예방교육",
+      "organization": "기타 적합한 조직",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?MST=265959&OC=unicpla&efYd=20251023&mobileYn=Y&target=law&type=HTML",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/news/cardinfo/view.do?bbs_seq=20190300173",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/lbook/lbFileDownload.do?flExt=pdf&lbookConflSeq=102409&lbookSeq=96116",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/news/cardinfo/view.do?bbs_seq=20230601346",
+          "title": "고용노동부 공식자료"
+        }
+      ],
+      "hash": "6ba9f9292748aa3a627ac1e3"
+    },
+    {
+      "id": "pilot-active-administration-associations",
+      "title": "협회·단체 적극행정교육, ‘열심히’보다 판단 기준부터",
+      "description": "협회·단체 적극행정교육의 핵심은 권한·절차·공정성입니다. 공무원 제도와의 차이를 구분하고, 실제 업무에서 확인·협의·기록할 기준을 정리합니다.",
+      "path": "/active-administration-associations",
+      "published": "2026-11-07T04:59:52.468Z",
+      "modified": "2026-11-07T05:19:45.475Z",
+      "field": "적극행정교육",
+      "organization": "협회·단체",
+      "sourceUrls": [
+        {
+          "url": "https://www.mpm.go.kr/mpm/info/theActive/definition/",
+          "title": "인사혁신처 공식자료"
+        }
+      ],
+      "preserveOriginal": true
+    }
+  ]
+}
