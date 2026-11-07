@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://edu365.kr/</loc>
-  </url>
+  <url><loc>https://edu365.kr/</loc></url>
+  <url><loc>https://edu365.kr/fair-investigation</loc></url>
+  <url><loc>https://edu365.kr/education-notes</loc></url>
+  <url><loc>https://edu365.kr/active-administration-associations</loc></url>
 </urlset>
