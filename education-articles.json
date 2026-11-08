@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-07T07:51:42.232Z",
+  "updated": "2026-11-08T21:19:33.932Z",
   "posts": [
+    {
+      "id": "native-e3a9edcedf0f",
+      "title": "기업 성희롱·성폭력·성매매 예방교육, 무엇을 다뤄야 하나",
+      "description": "기업의 전 직원 예방교육에 포함할 핵심 내용과 사례 판단 기준, 피해 발생 시 신고·보호·조치 안내까지 실무적으로 정리했습니다.",
+      "path": "/guides/2026-11-09-harassment-prevention-e3a9edcedf0f",
+      "published": "2026-11-08T21:19:33.017Z",
+      "modified": "2026-11-08T21:19:33.017Z",
+      "field": "성희롱·성폭력·성매매 예방교육",
+      "organization": "기업·사업장",
+      "sourceUrls": [
+        {
+          "url": "https://www.moel.go.kr/faq/faqView.do?seqRepeat=531",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029221881",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20230300271",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1029221781",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "c1c1d6807db967728748ccbf"
+    },
     {
       "id": "native-92b855cbe3c6",
       "title": "직장 내 괴롭힘 예방교육, 전 직원이 배워야 할 판단 기준",
