@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-08T21:19:33.932Z",
+  "updated": "2026-11-09T21:20:12.851Z",
   "posts": [
+    {
+      "id": "native-2d9dac766b3c",
+      "title": "국가기관 청렴·부패방지교육, 전 직원이 무엇을 판단해야 하나",
+      "description": "국가기관 전 직원 대상 청렴·부패방지교육에서 다뤄야 할 금품수수, 이해충돌, 부정청탁, 신고와 보호 절차를 법적 적용 차이와 실무 판단 기준으로 설명합니다.",
+      "path": "/guides/2026-11-10-integrity-2d9dac766b3c",
+      "published": "2026-11-09T21:20:10.853Z",
+      "modified": "2026-11-09T21:20:10.853Z",
+      "field": "청렴·부패방지교육",
+      "organization": "국가기관",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030971517",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20270414&lsiSeq=291165",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285984",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=014082",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "ef7559b0e544d9b5c39669ea"
+    },
     {
       "id": "native-e3a9edcedf0f",
       "title": "기업 성희롱·성폭력·성매매 예방교육, 무엇을 다뤄야 하나",
