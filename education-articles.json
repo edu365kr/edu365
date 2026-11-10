@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-09T21:20:12.851Z",
+  "updated": "2026-11-10T21:19:31.828Z",
   "posts": [
+    {
+      "id": "native-f448793248c8",
+      "title": "공공기관 자살예방·생명존중교육, 전 직원이 익혀야 할 대응 기준",
+      "description": "공공기관 전 직원이 자살위험 신호를 알아차리고 대화·보고·긴급연계를 판단하는 기준을 설명합니다. 교육 의무와 기관 내규, 실무 권고의 차이도 함께 다룹니다.",
+      "path": "/guides/2026-11-11-suicide-prevention-f448793248c8",
+      "published": "2026-11-10T21:19:31.189Z",
+      "modified": "2026-11-10T21:19:31.189Z",
+      "field": "자살예방·생명존중교육",
+      "organization": "공공기관·공기업",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900571709",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=80343",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?ancYnChk=0&lsId=011365",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.mohw.go.kr/menu.es?mid=a10716040000",
+          "title": "보건복지부 공식자료"
+        }
+      ],
+      "hash": "945859330eb419cbef590ed0"
+    },
     {
       "id": "native-2d9dac766b3c",
       "title": "국가기관 청렴·부패방지교육, 전 직원이 무엇을 판단해야 하나",
