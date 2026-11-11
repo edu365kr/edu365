@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-10T21:19:31.828Z",
+  "updated": "2026-11-11T21:20:16.720Z",
   "posts": [
+    {
+      "id": "native-d7f3bb14de42",
+      "title": "협회·단체 장애인식개선교육, 전 직원에게 필요한 실무 내용",
+      "description": "협회·단체의 장애인식개선교육에서 확인할 법적 적용 범위와 장애 개념, 차별 예방, 합리적 편의, 의사소통, 회원 응대 사례 등 실무 교육내용을 설명합니다.",
+      "path": "/guides/2026-11-12-disability-awareness-d7f3bb14de42",
+      "published": "2026-11-11T21:20:15.672Z",
+      "modified": "2026-11-11T21:20:15.672Z",
+      "field": "장애인식개선교육",
+      "organization": "협회·단체",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000252780",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1023854921",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026964335",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/admRulSc.do?menuId=5&query=%EC%A7%81%EC%9E%A5+%EB%82%B4+%EC%9E%A5%EC%95%A0%EC%9D%B8+%EC%9D%B8%EC%8B%9D%EA%B0%9C%EC%84%A0+%EA%B5%90%EC%9C%A1+%EA%B7%9C%EC%A0%95&subMenuId=41&tabMenuId=183",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "dd604cec3bbe0d327829a7b0"
+    },
     {
       "id": "native-f448793248c8",
       "title": "공공기관 자살예방·생명존중교육, 전 직원이 익혀야 할 대응 기준",
