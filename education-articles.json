@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-11T21:20:16.720Z",
+  "updated": "2026-11-12T21:19:30.172Z",
   "posts": [
+    {
+      "id": "native-ee435990aa79",
+      "title": "사회복지기관 관리자 인권교육, 현장 판단 기준은 무엇인가",
+      "description": "사회복지기관 관리자가 인권침해를 예방하고 상황 발생 뒤 적절히 대응하기 위해 확인할 판단 기준과 교육 구성, 기록·보고 원칙을 설명합니다.",
+      "path": "/guides/2026-11-13-human-rights-ee435990aa79",
+      "published": "2026-11-12T21:19:29.155Z",
+      "modified": "2026-11-12T21:19:29.155Z",
+      "field": "인권교육",
+      "organization": "사회복지기관",
+      "sourceUrls": [
+        {
+          "url": "https://edu.humanrights.go.kr/academy/intro/agree6_sub.do",
+          "title": "국가인권위원회 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsPdfPrint.do?ancYnChk=0&bylChaChk=N&efGubun=Y&efYd=20230915&joAllCheck=Y&joEfOutPutYn=on&lsiSeq=254693&mokChaChk=N",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://edu.humanrights.go.kr/home/edctc/cntnts/educationOperation.do",
+          "title": "국가인권위원회 공식자료"
+        },
+        {
+          "url": "https://www.mohw.go.kr/kor/download/07/007.pdf",
+          "title": "보건복지부 공식자료"
+        }
+      ],
+      "hash": "8aeaaa38cb679ba790d30be1"
+    },
     {
       "id": "native-d7f3bb14de42",
       "title": "협회·단체 장애인식개선교육, 전 직원에게 필요한 실무 내용",
