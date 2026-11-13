@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-12T21:19:30.172Z",
+  "updated": "2026-11-13T21:19:16.183Z",
   "posts": [
+    {
+      "id": "native-6396f00ee38f",
+      "title": "대학교 개인정보보호교육, 전 직원이 알아야 할 업무별 기준",
+      "description": "대학교 전 직원이 입학·학사·연구·시설관리 업무에서 개인정보를 어떻게 확인하고 공유해야 하는지, 보관·파기와 유출 의심 상황의 판단 기준까지 설명합니다.",
+      "path": "/guides/2026-11-14-privacy-6396f00ee38f",
+      "published": "2026-11-13T21:19:15.401Z",
+      "modified": "2026-11-13T21:19:15.401Z",
+      "field": "개인정보보호교육",
+      "organization": "대학교·교육기관",
+      "sourceUrls": [
+        {
+          "url": "https://pipc.go.kr/np/default/page.do?mCode=D030040000",
+          "title": "개인정보보호위원회 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsPdfPrint.do?ancYnChk=0&bylChaChk=N&efGubun=Y&efYd=20230915&joAllCheck=Y&joEfOutPutYn=on&lsiSeq=254693&mokChaChk=N",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171057079",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=155926199",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "d8fdf7051216c030f6605b3d"
+    },
     {
       "id": "native-ee435990aa79",
       "title": "사회복지기관 관리자 인권교육, 현장 판단 기준은 무엇인가",
