@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-13T21:19:16.183Z",
+  "updated": "2026-11-14T23:58:49.951Z",
   "posts": [
+    {
+      "id": "native-6bf7000c794f",
+      "title": "사회복지기관 강사선정, 전 직원 교육은 무엇을 봐야 하나",
+      "description": "사회복지기관 전 직원 교육에 적합한 강사를 고르는 기준을 정리합니다. 법적 의무와 기관 필요를 구분하고, 현장성·교육설계·강의 검증 방법까지 안내합니다.",
+      "path": "/guides/2026-11-15-education-6bf7000c794f",
+      "published": "2026-11-14T23:58:49.319Z",
+      "modified": "2026-11-14T23:58:49.319Z",
+      "field": "강사선정·교육기획·강사섭외",
+      "organization": "사회복지기관",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=200369",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900373810",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?ancYnChk=0&lsId=000202",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=125556",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "f592bc94c0eabc3f61abec48"
+    },
     {
       "id": "native-6396f00ee38f",
       "title": "대학교 개인정보보호교육, 전 직원이 알아야 할 업무별 기준",
