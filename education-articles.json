@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-14T23:58:49.951Z",
+  "updated": "2026-11-15T21:52:06.474Z",
   "posts": [
+    {
+      "id": "native-70dc7781f175",
+      "title": "기타 조직 성희롱·성폭력·성매매 예방교육, 무엇을 배워야 하나",
+      "description": "전체 직원 교육에서 구분해야 할 성희롱·성폭력·성매매의 개념과 조직 내 경계, 신고·보호 절차, 2차 피해 예방의 실무 기준을 설명합니다.",
+      "path": "/guides/2026-11-16-harassment-prevention-70dc7781f175",
+      "published": "2026-11-15T21:52:05.797Z",
+      "modified": "2026-11-15T21:52:05.797Z",
+      "field": "성희롱·성폭력·성매매 예방교육",
+      "organization": "",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029335999",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%82%A8%EB%85%80%EA%B3%A0%EC%9A%A9%ED%8F%89%EB%93%B1%EA%B3%BC%20%EC%9D%BC%C2%B7%EA%B0%80%EC%A0%95%20%EC%96%91%EB%A6%BD%20%EC%A7%80%EC%9B%90%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0/%EC%A0%9C19%EC%A1%B0%EC%9D%984",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030171235",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkProc.do?joNo=000300&lsClsCd=L&lsNm=%EB%82%A8%EB%85%80%EA%B3%A0%EC%9A%A9%ED%8F%89%EB%93%B1%EB%B2%95+%EC%8B%9C%ED%96%89%EB%A0%B9&mode=11",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "9e723c8fb7f339bbac879fc2"
+    },
     {
       "id": "native-6bf7000c794f",
       "title": "사회복지기관 강사선정, 전 직원 교육은 무엇을 봐야 하나",
