@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-15T21:52:06.474Z",
+  "updated": "2026-11-16T21:52:19.185Z",
   "posts": [
+    {
+      "id": "native-1bbb833515c8",
+      "title": "협회·단체 청렴·부패방지교육, 회비·후원금은 어떻게 판단하나",
+      "description": "협회·단체 직원이 회비, 후원금, 협찬, 식사와 선물을 처리할 때 확인할 법적 적용 범위와 내부 기준, 기록·보고 절차를 구체적으로 설명합니다.",
+      "path": "/guides/2026-11-17-integrity-1bbb833515c8",
+      "published": "2026-11-16T21:52:17.385Z",
+      "modified": "2026-11-16T21:52:17.385Z",
+      "field": "청렴·부패방지교육",
+      "organization": "협회·단체",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030971431",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?lsId=014082",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026013361",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030971451",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "ac787e64b11c56169dfe39dd"
+    },
     {
       "id": "native-70dc7781f175",
       "title": "기타 조직 성희롱·성폭력·성매매 예방교육, 무엇을 배워야 하나",
