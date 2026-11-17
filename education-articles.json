@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-16T21:52:19.185Z",
+  "updated": "2026-11-17T21:52:49.047Z",
   "posts": [
+    {
+      "id": "native-e18ed1e72fe1",
+      "title": "지방자치단체 자살예방·생명존중교육, 전 직원이 배울 내용",
+      "description": "지방자치단체 전 직원 대상 자살예방교육에서 다뤄야 할 위험신호, 대화법, 신고·연계 기준과 개인정보 보호 원칙을 실무 중심으로 설명합니다.",
+      "path": "/guides/2026-11-18-suicide-prevention-e18ed1e72fe1",
+      "published": "2026-11-17T21:52:47.091Z",
+      "modified": "2026-11-17T21:52:47.091Z",
+      "field": "자살예방·생명존중교육",
+      "organization": "지방자치단체",
+      "sourceUrls": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1024487573",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20201008&lsiSeq=217293",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%9E%90%EC%82%B4%EC%98%88%EB%B0%A9%20%EB%B0%8F%20%EC%83%9D%EB%AA%85%EC%A1%B4%EC%A4%91%EB%AC%B8%ED%99%94%20%EC%A1%B0%EC%84%B1%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%B2%95%EB%A5%A0/%EC%A0%9C8%EC%A1%B0",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=20260512&joNo=001700&lsiSeq=279695&urlMode=lsInfoP",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "6bc72e058c0768571ca355bb"
+    },
     {
       "id": "native-1bbb833515c8",
       "title": "협회·단체 청렴·부패방지교육, 회비·후원금은 어떻게 판단하나",
