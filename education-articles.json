@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-17T21:52:49.047Z",
+  "updated": "2026-11-18T21:52:03.997Z",
   "posts": [
+    {
+      "id": "native-431071a6e120",
+      "title": "국가기관 장애인식개선교육, 전 직원이 익혀야 할 실무 판단",
+      "description": "국가기관 전 직원이 장애인식개선교육에서 배워야 할 장애 개념, 차별과 정당한 편의 제공의 구분, 의사소통과 업무 대응 기준을 설명합니다.",
+      "path": "/guides/2026-11-19-disability-awareness-431071a6e120",
+      "published": "2026-11-18T21:52:02.043Z",
+      "modified": "2026-11-18T21:52:02.043Z",
+      "field": "장애인식개선교육",
+      "organization": "국가기관",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031137431",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20260102&lsiSeq=281165",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=20260101&lsiSeq=280293&urlMode=lsInfoP",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1031065757",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "847b620f5e8bad1b633035aa"
+    },
     {
       "id": "native-e18ed1e72fe1",
       "title": "지방자치단체 자살예방·생명존중교육, 전 직원이 배울 내용",
