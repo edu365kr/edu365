@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-18T21:52:03.997Z",
+  "updated": "2026-11-19T21:52:02.954Z",
   "posts": [
+    {
+      "id": "native-eb3d824edd56",
+      "title": "학교 관리자 인권교육, 민원·학생지도에서 무엇을 판단해야 하나",
+      "description": "학교 관리자가 인권교육에서 익혀야 할 학생·교직원 권리 판단 기준과 민원, 생활지도, 장애·차별 상황에서 절차를 점검하는 방법을 설명합니다.",
+      "path": "/guides/2026-11-20-human-rights-eb3d824edd56",
+      "published": "2026-11-19T21:52:01.971Z",
+      "modified": "2026-11-19T21:52:01.971Z",
+      "field": "인권교육",
+      "organization": "학교·교직원",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1034181995",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032276173",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20260729&lsiSeq=285599",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=000901",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "d605b4fb06a2f7779d6b1820"
+    },
     {
       "id": "native-431071a6e120",
       "title": "국가기관 장애인식개선교육, 전 직원이 익혀야 할 실무 판단",
