@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-19T21:52:02.954Z",
+  "updated": "2026-11-20T21:52:09.354Z",
   "posts": [
+    {
+      "id": "native-8d91967376e0",
+      "title": "공공기관 적극행정교육, 현장 판단과 기록은 어떻게 준비하나",
+      "description": "공공기관 전 직원이 적극행정의 의미를 업무에 적용하려면 재량의 한계, 사전 검토, 기록과 책임 보호 절차를 어떻게 확인해야 하는지 설명합니다.",
+      "path": "/guides/2026-11-21-active-administration-8d91967376e0",
+      "published": "2026-11-20T21:52:08.830Z",
+      "modified": "2026-11-20T21:52:08.830Z",
+      "field": "적극행정교육",
+      "organization": "공공기관·공기업",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026063811",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283974&chrClsCd=010201",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=279545",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20261110&lsiSeq=291817",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "bc1ce458c5cc6a7d312d1b84"
+    },
     {
       "id": "native-eb3d824edd56",
       "title": "학교 관리자 인권교육, 민원·학생지도에서 무엇을 판단해야 하나",
