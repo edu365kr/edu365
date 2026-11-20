@@ -124,3 +124,23 @@ form.addEventListener('submit', async event => {
     submitButton.textContent = '교육문의 보내기';
   }
 });
+
+// 현장 강연·방송 출연 영상(2026-11-21): 포스터를 누르면 같은 자리에서 바로 재생
+document.querySelectorAll('.video-poster').forEach(poster => {
+  poster.addEventListener('click', event => {
+    const embed = poster.closest('.video-embed');
+    const videoId = embed && embed.dataset.videoId;
+    if (!videoId) return;
+    event.preventDefault();
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1&playsinline=1`;
+    iframe.title = poster.dataset.title || '영상 재생';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allowFullscreen = true;
+    iframe.setAttribute('allowfullscreen', '');
+    embed.appendChild(iframe);
+    if (poster.parentElement === embed) poster.remove();
+    if (typeof iframe.focus === 'function') iframe.focus({ preventScroll: true });
+  });
+});
