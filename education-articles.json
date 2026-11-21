@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-20T21:52:09.354Z",
+  "updated": "2026-11-21T21:51:59.649Z",
   "posts": [
+    {
+      "id": "native-2ceb84e91b06",
+      "title": "협회·단체 전 직원 교육 강사선정, 강의안은 무엇을 봐야 하나",
+      "description": "협회·단체가 전 직원 대상 외부교육 강사를 섭외할 때 확인할 강의목표, 대상 적합성, 사례의 신뢰성, 계약·평가 기준을 설명합니다.",
+      "path": "/guides/2026-11-22-education-2ceb84e91b06",
+      "published": "2026-11-21T21:51:59.001Z",
+      "modified": "2026-11-21T21:51:59.001Z",
+      "field": "강사선정·교육기획·강사섭외",
+      "organization": "협회·단체",
+      "sourceUrls": [
+        {
+          "url": "https://www.moel.go.kr/faq/faqView.do?seqRepeat=531",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20260500588",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20230300271",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1030171233",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "5157bfb9947707a3106eee08"
+    },
     {
       "id": "native-8d91967376e0",
       "title": "공공기관 적극행정교육, 현장 판단과 기록은 어떻게 준비하나",
