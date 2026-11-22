@@ -126,10 +126,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media(max-width:700px){.guides{padding-top:120px}.guide-grid{grid-template-columns:1fr}.guide-card{padding:22px 20px}.guide-card h3{font-size:19px}.guide-intro p{font-size:16.5px}.guides .section-head{margin-bottom:28px}.guide-intro .button{width:100%}}
 
 /* 저서 구매 버튼 (#books) — 교보문고·예스24 실제 판매 페이지 연결 */
-.buy-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.buy-btn{display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border:1px solid var(--navy);border-radius:4px;background:#fff;color:var(--navy);font-size:14px;font-weight:800;line-height:1.2;letter-spacing:-.01em;transition:.18s}
+.book-grid .buy-links{grid-column:1/-1;display:flex;justify-content:flex-start;gap:8px;margin-top:2px;padding-top:16px;border-top:1px solid var(--line)}
+.buy-btn{flex:0 1 auto;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:9px 16px;border:1px solid var(--navy);border-radius:4px;background:#fff;color:var(--navy);font-size:14px;font-weight:800;line-height:1.2;letter-spacing:-.01em;transition:.18s}
 .buy-btn i{font-style:normal;font-size:12px;line-height:1;color:var(--orange);transition:.18s}
 .buy-btn:hover{background:var(--navy);color:#fff;transform:translateY(-1px)}
 .buy-btn:hover i{color:#ffc79a}
 .buy-btn:focus-visible{outline:3px solid rgba(36,91,143,.25);outline-offset:2px}
-@media(max-width:700px){.buy-links{margin-top:14px;gap:6px}.buy-btn{padding:8px 12px;font-size:13px;gap:5px}}
+@media(max-width:700px){.book-grid .buy-links{gap:6px;padding-top:14px}.buy-btn{flex:1 1 0;padding:8px 6px;font-size:13px;gap:5px}}
