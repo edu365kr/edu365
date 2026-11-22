@@ -120,6 +120,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .privacy-policy-link{color:#a9bac8!important;font-size:13px;text-decoration:underline;text-underline-offset:3px}
 .privacy-policy-link:hover{color:#fff!important}
 .footnote{flex-wrap:wrap;gap:10px 22px}
+.footnote-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 20px}
 
 @media(max-width:1000px){.guides{padding-top:150px}.guide-grid{grid-template-columns:1fr 1fr}.guides .section-head{align-items:flex-start}}
 @media(max-width:700px){.guides{padding-top:120px}.guide-grid{grid-template-columns:1fr}.guide-card{padding:22px 20px}.guide-card h3{font-size:19px}.guide-intro p{font-size:16.5px}.guides .section-head{margin-bottom:28px}.guide-intro .button{width:100%}}

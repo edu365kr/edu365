@@ -11,6 +11,8 @@
 .page-hero .lede{max-width:720px;margin:22px 0 0;color:#cddded;font-size:18px;line-height:1.7}
 .page-hero .hero-facts{display:flex;flex-wrap:wrap;gap:10px 22px;margin:26px 0 0;color:#b9cfe1;font-size:15px}
 .page-hero .hero-facts b{color:#fff}
+.page-hero.narrow .container>*{max-width:780px;margin-left:auto;margin-right:auto}
+.page-hero.mid .container>*{max-width:860px;margin-left:auto;margin-right:auto}
 .page-hero .lede a{color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .page-hero .lede a:hover{color:#ffd0ae}
 
