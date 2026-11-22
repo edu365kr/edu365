@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://edu365.kr/sitemap.xml
+Sitemap: https://edu365.kr/sitemap-pages.xml
