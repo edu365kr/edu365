@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-23T12:13:59.534Z",
+  "updated": "2026-11-23T21:52:25.034Z",
   "posts": [
+    {
+      "id": "native-14dbd7d05d64",
+      "title": "사회복지기관 청렴·부패방지교육, 후원금과 구매는 어떻게 판단하나",
+      "description": "사회복지기관 전 직원이 후원금·보조금·구매·채용 과정에서 확인할 청렴 기준을 익히고, 법적 의무와 기관 내규를 구분해 실제 상황의 대응 절차까지 판단하도록 안내합니다.",
+      "path": "/guides/2026-11-24-integrity-14dbd7d05d64",
+      "published": "2026-11-23T21:52:24.233Z",
+      "modified": "2026-11-23T21:52:24.233Z",
+      "field": "청렴·부패방지교육",
+      "organization": "사회복지기관",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=246999",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=007338",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsStmdInfoP.do?lsiSeq=217891",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1017512271",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "a680415499751e182aec75dc"
+    },
     {
       "id": "native-b37fa465bc36",
       "title": "대학교 전 직원 성희롱·성폭력·성매매 예방교육, 무엇을 배워야 하나",
