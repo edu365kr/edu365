@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-21T21:51:59.649Z",
+  "updated": "2026-11-23T12:13:59.534Z",
   "posts": [
+    {
+      "id": "native-b37fa465bc36",
+      "title": "대학교 전 직원 성희롱·성폭력·성매매 예방교육, 무엇을 배워야 하나",
+      "description": "대학교 전 직원 교육에서 다뤄야 할 성희롱·성폭력·성매매 예방의 핵심 내용을 관계별 경계, 디지털 행위, 신고·지원 절차와 함께 설명합니다.",
+      "path": "/guides/2026-11-23-harassment-prevention-b37fa465bc36",
+      "published": "2026-11-23T12:13:58.914Z",
+      "modified": "2026-11-23T12:13:58.914Z",
+      "field": "성희롱·성폭력·성매매 예방교육",
+      "organization": "대학교·교육기관",
+      "sourceUrls": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1021745801",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=116553",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900484915",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%96%91%EC%84%B1%20%ED%8F%89%EB%93%B1%20%EA%B8%B0%EB%B3%B8%EB%B2%95",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "35e040181d28c713ac94d132"
+    },
     {
       "id": "native-2ceb84e91b06",
       "title": "협회·단체 전 직원 교육 강사선정, 강의안은 무엇을 봐야 하나",
