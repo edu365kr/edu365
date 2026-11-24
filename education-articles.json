@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-23T21:52:25.034Z",
+  "updated": "2026-11-24T21:52:08.889Z",
   "posts": [
+    {
+      "id": "native-bcd232fb63c1",
+      "title": "기타 조직 자살예방·생명존중교육, 위기 신호는 어떻게 다룰까",
+      "description": "전 직원이 자살위험 신호를 알아차리고 안전하게 질문·연결·보고하는 방법을 정리합니다. 교육 범위와 상담·응급대응의 구분, 기관 절차 확인 기준도 안내합니다.",
+      "path": "/guides/2026-11-25-suicide-prevention-bcd232fb63c1",
+      "published": "2026-11-24T21:52:08.030Z",
+      "modified": "2026-11-24T21:52:08.030Z",
+      "field": "자살예방·생명존중교육",
+      "organization": "",
+      "sourceUrls": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1024487573",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?efYd=20270421&lsiSeq=291325",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030473405",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=291325&viewCls=lsRvsDocInfoR",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "b0303179d9dea5eefc5068b3"
+    },
     {
       "id": "native-14dbd7d05d64",
       "title": "사회복지기관 청렴·부패방지교육, 후원금과 구매는 어떻게 판단하나",
