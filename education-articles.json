@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-24T21:52:08.889Z",
+  "updated": "2026-11-25T21:52:01.151Z",
   "posts": [
+    {
+      "id": "native-ef1181802a3a",
+      "title": "기업 장애인식개선교육, 편의 제공 요청은 어떻게 판단하나",
+      "description": "기업의 장애인식개선교육에서 다뤄야 할 합리적 편의, 의사소통, 개인정보 보호, 업무 배치 기준을 구분하고 실제 요청에 대응하는 판단 절차를 설명합니다.",
+      "path": "/guides/2026-11-26-disability-awareness-ef1181802a3a",
+      "published": "2026-11-25T21:52:00.436Z",
+      "modified": "2026-11-25T21:52:00.436Z",
+      "field": "장애인식개선교육",
+      "organization": "기업·사업장",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1033122839",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026964351",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20250100004",
+          "title": "고용노동부 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000252780&chrClsCd=010201",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "124cb23ecc36cd439c153079"
+    },
     {
       "id": "native-bcd232fb63c1",
       "title": "기타 조직 자살예방·생명존중교육, 위기 신호는 어떻게 다룰까",
