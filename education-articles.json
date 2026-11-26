@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-25T21:52:01.151Z",
+  "updated": "2026-11-26T21:52:13.224Z",
   "posts": [
+    {
+      "id": "native-1857a5e39720",
+      "title": "지방자치단체 관리자 인권교육, 민원과 조직운영의 기준은",
+      "description": "지방자치단체 관리자가 인권교육에서 익혀야 할 차별 판단, 민원 대응, 개인정보 보호, 조직 내 권리보장 기준과 교육 후 점검 방법을 설명합니다.",
+      "path": "/guides/2026-11-27-human-rights-1857a5e39720",
+      "published": "2026-11-26T21:52:12.311Z",
+      "modified": "2026-11-26T21:52:12.311Z",
+      "field": "인권교육",
+      "organization": "지방자치단체",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1012828841",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancNo=21857&ancYd=20260804&efYd=20261002&lsiSeq=290781",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028956045",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030492529",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "a1b055714a48c0b76de16ac4"
+    },
     {
       "id": "native-ef1181802a3a",
       "title": "기업 장애인식개선교육, 편의 제공 요청은 어떻게 판단하나",
