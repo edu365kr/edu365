@@ -155,15 +155,20 @@ footer a{color:var(--navy);text-decoration:none;font-weight:700}
 
 /* 확대 보기 */
 .lightbox{
-  position:fixed;inset:0;z-index:60;display:none;
-  align-items:center;justify-content:center;
-  background:rgba(7,28,49,.96);padding:0;
+  position:fixed;inset:0;z-index:60;display:none;overflow-y:auto;
+  background:rgba(7,28,49,.97);padding:calc(58px + env(safe-area-inset-top)) 0 30px;
+  -webkit-overflow-scrolling:touch;
 }
-.lightbox.open{display:flex}
-.lightbox img{width:100%;height:auto;max-height:100%;object-fit:contain}
+.lightbox.open{display:block}
+.lightbox figure{margin:0 0 18px;padding:0 10px}
+.lightbox img{display:block;width:100%;height:auto;border-radius:10px}
+.lightbox figcaption{
+  margin:8px 0 0;text-align:center;font-size:12px;font-weight:600;color:#a9bcd0;
+}
+body.no-scroll{overflow:hidden}
 .lightbox .close{
-  position:absolute;top:calc(12px + env(safe-area-inset-top));right:14px;
-  width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.16);
+  position:fixed;top:calc(12px + env(safe-area-inset-top));right:14px;z-index:61;
+  width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.18);
   color:#fff;font-size:20px;line-height:1;cursor:pointer;
 }
 
@@ -259,9 +264,16 @@ footer a{color:var(--navy);text-decoration:none;font-weight:700}
   </footer>
 </main>
 
-<div class="lightbox" id="lightbox" aria-hidden="true">
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="명함 크게 보기">
   <button type="button" class="close" id="close-lightbox" aria-label="닫기">✕</button>
-  <img src="/images/namecard/namecard-combined.png" alt="김범일 명함 확대 이미지">
+  <figure>
+    <img src="/images/namecard/card-front.png" alt="김범일 명함 앞면" loading="lazy" decoding="async">
+    <figcaption>앞면 · 사진과 연락처</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/namecard/card-back.png" alt="김범일 명함 뒷면" loading="lazy" decoding="async">
+    <figcaption>뒷면 · 저서와 약력, QR</figcaption>
+  </figure>
 </div>
 
 <p class="toast" id="toast" role="status" aria-live="polite"></p>
@@ -336,12 +348,26 @@ footer a{color:var(--navy);text-decoration:none;font-weight:700}
   var lb = document.getElementById("lightbox");
   var open = document.getElementById("open-card");
   var close = document.getElementById("close-lightbox");
-  function openBox(){ if (lb) { lb.classList.add("open"); lb.setAttribute("aria-hidden","false"); } }
-  function closeBox(){ if (lb) { lb.classList.remove("open"); lb.setAttribute("aria-hidden","true"); } }
+  function openBox(){
+    if (!lb) { return; }
+    lb.classList.add("open");
+    lb.setAttribute("aria-hidden","false");
+    document.body.classList.add("no-scroll");
+  }
+  function closeBox(){
+    if (!lb) { return; }
+    lb.classList.remove("open");
+    lb.setAttribute("aria-hidden","true");
+    document.body.classList.remove("no-scroll");
+  }
   if (open) { open.addEventListener("click", openBox); }
-  if (lb) { lb.addEventListener("click", closeBox); }
+  if (lb) {
+    lb.addEventListener("click", function(e){
+      if (e.target === lb) { closeBox(); }
+    });
+  }
   if (close) {
-    close.addEventListener("click", function(e){ e.stopPropagation(); closeBox(); });
+    close.addEventListener("click", function(){ closeBox(); });
   }
   document.addEventListener("keydown", function(e){ if (e.key === "Escape") { closeBox(); } });
 })();
