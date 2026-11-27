@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "site": "https://edu365.kr",
-  "updated": "2026-11-26T21:52:13.224Z",
+  "updated": "2026-11-27T21:52:08.092Z",
   "posts": [
+    {
+      "id": "native-a1de0f8c152a",
+      "title": "학교 직장 내 괴롭힘 예방교육, 업무지시와 괴롭힘은 어떻게 구분하나",
+      "description": "학교에서 반복되는 공개 질책과 업무지시를 구분하는 판단 기준, 교직원 간 신고·상담 시 확인할 사실과 기관이 안내해야 할 보호 원칙을 설명합니다.",
+      "path": "/guides/2026-11-28-workplace-harassment-a1de0f8c152a",
+      "published": "2026-11-27T21:52:07.194Z",
+      "modified": "2026-11-27T21:52:07.194Z",
+      "field": "직장 내 괴롭힘 예방교육",
+      "organization": "학교·교직원",
+      "sourceUrls": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1012828841",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1025590527",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170115913",
+          "title": "국가법령정보센터 공식자료"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0076&lsiSeq=283457&urlMode=lsScJoRltInfoR",
+          "title": "국가법령정보센터 공식자료"
+        }
+      ],
+      "hash": "c5c955ad1f72ff8ca7c8faf3"
+    },
     {
       "id": "native-1857a5e39720",
       "title": "지방자치단체 관리자 인권교육, 민원과 조직운영의 기준은",
