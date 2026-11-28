@@ -130,11 +130,8 @@
   .book-jump .container{grid-template-columns:repeat(3,1fr)}
   .book-jump a{border-bottom:1px solid #24405c}
   .book-layout{grid-template-columns:1fr;gap:32px}
-  .book-aside{position:static;max-height:none;overflow:visible;order:2}
-  .book-main{order:1}
-  .book-toc{border:1px solid var(--line);border-top:3px solid var(--navy);padding:18px 20px;background:#fbfcfd}
-  .book-toc ol{columns:2;column-gap:28px}
-  .book-toc ol ol{columns:1;margin-left:6px}
+  /* 좁은 화면에서는 부록 바로가기 칩과 부록별 차례가 목차 역할을 하므로 사이드 목차는 감춥니다. */
+  .book-aside{display:none}
   .source-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:900px){
@@ -151,7 +148,6 @@
   .book-appendix table,.book-dl table,.book-errata table{font-size:13.5px}
   .book-appendix th,.book-appendix td,.book-dl th,.book-dl td,.book-errata th,.book-errata td{padding:8px 9px}
   .book-appendix tbody th{width:auto;min-width:84px}
-  .book-toc ol{columns:1}
   .source-grid{grid-template-columns:1fr}
   .appendix-jump ul{gap:5px 14px}
 }
