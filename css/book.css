@@ -12,10 +12,10 @@
 /* ── 부록 바로가기 ── */
 .book-jump{background:var(--deep);border-top:1px solid #24405c}
 .book-jump .container{display:grid;grid-template-columns:repeat(9,1fr);gap:1px;padding:0}
-.book-jump a{display:flex;flex-direction:column;gap:4px;padding:16px 12px;color:#dbe6ef;font-size:13px;line-height:1.4;border-right:1px solid #24405c}
+.book-jump a{display:flex;flex-direction:column;gap:4px;min-width:0;padding:16px 12px;color:#dbe6ef;font-size:13px;line-height:1.4;border-right:1px solid #24405c}
 .book-jump a:first-child{border-left:1px solid #24405c}
 .book-jump a b{color:#ffad73;font-size:15px;letter-spacing:.02em}
-.book-jump a span{color:#c4d5e3}
+.book-jump a span{color:#c4d5e3;overflow-wrap:anywhere}
 .book-jump a:hover,.book-jump a:focus-visible{background:#12304d;color:#fff}
 
 /* ── 이 페이지에 대하여 ── */
