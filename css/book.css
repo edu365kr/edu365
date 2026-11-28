@@ -1,0 +1,157 @@
+/* edu365.kr/book — 온라인 실무 부록 (2026-11-29)
+   색·글꼴·버튼은 css/style.css 의 토큰을 그대로 씁니다. */
+
+/* ── 머리 ── */
+.book-hero .lede{max-width:760px}
+.book-hero .hero-facts{margin-top:24px}
+.book-hero .buttons{margin:30px 0 0}
+.book-hero .button.outline{background:transparent;border-color:#f3a76e;color:#fff}
+.book-hero .button.outline:hover{background:rgba(255,255,255,.08)}
+.book-hero .button.primary{background:var(--orange);border-color:var(--orange);color:#fff}
+
+/* ── 부록 바로가기 ── */
+.book-jump{background:var(--deep);border-top:1px solid #24405c}
+.book-jump .container{display:grid;grid-template-columns:repeat(9,1fr);gap:1px;padding:0}
+.book-jump a{display:flex;flex-direction:column;gap:4px;padding:16px 12px;color:#dbe6ef;font-size:13px;line-height:1.4;border-right:1px solid #24405c}
+.book-jump a:first-child{border-left:1px solid #24405c}
+.book-jump a b{color:#ffad73;font-size:15px;letter-spacing:.02em}
+.book-jump a span{color:#c4d5e3}
+.book-jump a:hover,.book-jump a:focus-visible{background:#12304d;color:#fff}
+
+/* ── 이 페이지에 대하여 ── */
+.book-section{padding:72px 0}
+.book-about{background:var(--pale);border-bottom:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:54px;align-items:start}
+.book-about h2{margin:0 0 22px;font-size:clamp(26px,3vw,36px);color:var(--navy);line-height:1.3}
+.book-about p{color:#2b3b4b;font-size:17px;line-height:1.8}
+.about-list{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:12px}
+.about-list li{padding-left:18px;position:relative;color:#2b3b4b;font-size:16px;line-height:1.7}
+.about-list li:before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;background:var(--orange)}
+.about-list b{color:var(--navy)}
+.about-list a{color:var(--blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.about-note{padding:26px 26px 22px;background:#fff;border-top:4px solid var(--navy);box-shadow:0 10px 30px rgba(8,39,70,.06)}
+.about-note h3{margin:0 0 14px;font-size:18px;color:var(--navy)}
+.about-note p{margin:0 0 10px;color:#40566c;font-size:14.5px;line-height:1.75}
+.about-note .copyright{margin:16px 0 0;padding-top:14px;border-top:1px solid var(--line);color:#58697a;font-size:13.5px}
+
+/* ── 본문 2단 ── */
+.book-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:56px;padding-top:64px;padding-bottom:80px;align-items:start}
+.book-aside{position:sticky;top:104px;max-height:calc(100vh - 130px);overflow:auto;padding-right:4px}
+.book-toc{border-top:2px solid var(--navy);padding-top:16px}
+.book-toc .toc-title{margin:0 0 10px;color:var(--navy);font-size:13px;font-weight:850;letter-spacing:.06em}
+.book-toc ol{margin:0 0 20px;padding:0;list-style:none}
+.book-toc ol ol{margin:6px 0 14px 10px;padding-left:8px;border-left:1px solid var(--line)}
+.book-toc li{margin:0 0 4px}
+.book-toc a{display:block;padding:3px 0;color:#40566c;font-size:13.5px;line-height:1.45;text-decoration:none;border-bottom:1px solid transparent}
+.book-toc ol ol a{font-size:12.5px;color:#5b6e80}
+.book-toc > ol > li > a{margin-top:8px;color:var(--navy);font-weight:800;font-size:14px}
+.book-toc a:hover,.book-toc a:focus-visible{color:var(--blue);border-bottom-color:var(--orange)}
+.toc-sub{margin:0;padding:0;list-style:none}
+.toc-sub a{font-size:13px;color:#58697a}
+
+.book-main{min-width:0}
+.book-lead-line{margin:0 0 34px;padding:16px 18px;background:var(--pale);border-left:4px solid var(--orange);color:#2b3b4b;font-size:15.5px}
+.book-lead-line a{color:var(--blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+
+/* ── 부록 한 편 ── */
+.book-appendix{padding:0 0 34px;margin:0 0 46px;border-bottom:1px solid var(--line);scroll-margin-top:96px}
+.book-appendix:last-of-type{border-bottom:0}
+.appendix-head{margin:0 0 26px}
+.appendix-num{margin:0 0 8px;color:var(--orange);font-size:14px;font-weight:850;letter-spacing:.1em}
+.book-appendix h2.appendix-title{margin:0 0 14px;font-size:clamp(26px,3vw,36px);color:var(--navy);line-height:1.3}
+.appendix-lede-box{margin:0 0 20px;color:var(--blue);font-size:17px;font-weight:700}
+.appendix-jump{padding:16px 20px;background:var(--pale);border:1px solid var(--line)}
+.appendix-jump p{margin:0 0 8px;color:#58697a;font-size:13px;font-weight:800}
+.appendix-jump ul{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0;padding:0;list-style:none}
+.appendix-jump a{color:var(--navy);font-size:14px;text-decoration:none;border-bottom:1px solid var(--line)}
+.appendix-jump a:hover,.appendix-jump a:focus-visible{color:var(--blue);border-bottom-color:var(--orange)}
+
+.book-appendix h3{margin:44px 0 14px;padding-left:13px;border-left:4px solid var(--navy);color:var(--navy);font-size:21px;line-height:1.35;letter-spacing:-.02em;scroll-margin-top:96px}
+.book-appendix h4{margin:30px 0 10px;color:var(--navy);font-size:17.5px;line-height:1.45;scroll-margin-top:96px}
+.book-appendix h4:before{content:"·";margin-right:6px;color:var(--orange);font-weight:900}
+.book-appendix p{margin:0 0 16px;color:#2b3b4b;font-size:16.5px;line-height:1.85}
+.book-appendix ul,.book-appendix ol{margin:0 0 18px;padding-left:22px;color:#2b3b4b;font-size:16px;line-height:1.8}
+.book-appendix li{margin:0 0 7px}
+.book-appendix strong{color:var(--navy)}
+.book-appendix hr{margin:36px 0;border:0;border-top:1px solid var(--line)}
+.book-appendix .appendix-lede{margin:0 0 20px;color:#40566c;font-size:16.5px;font-weight:700}
+
+/* ── 표 ── */
+.table-wrap{margin:0 0 22px;overflow-x:auto;border:1px solid var(--line)}
+.book-appendix table,.book-dl table,.book-errata table{width:100%;border-collapse:collapse;background:#fff;font-size:14.5px;line-height:1.65}
+.book-appendix caption{text-align:left}
+.book-appendix th,.book-appendix td,.book-dl th,.book-dl td,.book-errata th,.book-errata td{padding:10px 12px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);text-align:left;vertical-align:top}
+.book-appendix th:last-child,.book-appendix td:last-child,.book-dl th:last-child,.book-dl td:last-child,.book-errata th:last-child,.book-errata td:last-child{border-right:0}
+.book-appendix thead th,.book-dl thead th,.book-errata thead th{background:#eef2f6;color:var(--navy);font-size:14px;font-weight:850;white-space:nowrap}
+.book-appendix tbody th{background:#fafcfd;color:var(--navy);font-weight:800;width:30%}
+.book-appendix tbody tr:nth-child(even) td{background:#fcfdfe}
+
+/* ── 체크리스트 ── */
+.check-list{list-style:none;padding-left:0}
+.check-list li{display:flex;gap:9px;align-items:flex-start;margin:0 0 9px;color:#2b3b4b;font-size:16px}
+.check-list .cb{color:var(--navy);font-size:18px;line-height:1.35}
+
+.to-top{margin:26px 0 0;text-align:right}
+.to-top a{color:#58697a;font-size:13.5px;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+
+/* ── 내려받기 ── */
+.book-dl{border-top:3px solid var(--navy);padding-top:22px}
+.book-dl h3{margin:0 0 12px;color:var(--navy);font-size:19px}
+.book-dl h3+h3{margin-top:34px}
+.book-dl .table-wrap{margin-bottom:26px}
+.book-dl th a{color:var(--blue);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.book-dl th a:hover{color:#c44f08}
+.book-dl td a{color:var(--blue);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.dl-file{white-space:nowrap;color:#58697a}
+.book-fine{margin:0;color:#58697a;font-size:14px;line-height:1.7}
+.book-fine a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+
+/* ── 정오표 ── */
+.book-errata{background:#fbfcfd;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.errata-table td:nth-child(3){color:#8a3d22}
+.errata-table td:nth-child(4){color:#175a43;font-weight:700}
+.errata-table td:nth-child(5){color:#4a5b6c;font-size:13.5px}
+.history-table{margin-top:8px}
+.history-table th{width:120px;white-space:nowrap;color:var(--navy);background:#fafcfd}
+
+/* ── 출처 ── */
+.source-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:22px}
+.source-grid article{padding:24px 22px;background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy)}
+.source-grid h3{margin:0 0 12px;color:var(--navy);font-size:17px}
+.source-grid p{margin:0 0 10px;color:#40566c;font-size:14.5px;line-height:1.7}
+.source-link{display:inline-block;color:var(--blue);font-size:15px;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.source-link:hover{color:#c44f08}
+
+/* ── 문의 띠 ── */
+.book-cta{background:var(--navy)}
+
+/* ── 반응형 ── */
+@media(max-width:1100px){
+  .book-jump .container{grid-template-columns:repeat(3,1fr)}
+  .book-jump a{border-bottom:1px solid #24405c}
+  .book-layout{grid-template-columns:1fr;gap:32px}
+  .book-aside{position:static;max-height:none;overflow:visible;order:2}
+  .book-main{order:1}
+  .book-toc{border:1px solid var(--line);border-top:3px solid var(--navy);padding:18px 20px;background:#fbfcfd}
+  .book-toc ol{columns:2;column-gap:28px}
+  .book-toc ol ol{columns:1;margin-left:6px}
+  .source-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .about-grid{grid-template-columns:1fr;gap:28px}
+  .book-section{padding:56px 0}
+}
+@media(max-width:700px){
+  .book-jump .container{grid-template-columns:repeat(2,1fr)}
+  .book-jump a{padding:13px 12px;font-size:12.5px}
+  .book-layout{padding-top:44px;padding-bottom:56px}
+  .book-appendix h3{font-size:19px;margin-top:36px}
+  .book-appendix h4{font-size:16.5px}
+  .book-appendix p,.book-appendix ul,.book-appendix ol{font-size:15.5px}
+  .book-appendix table,.book-dl table,.book-errata table{font-size:13.5px}
+  .book-appendix th,.book-appendix td,.book-dl th,.book-dl td,.book-errata th,.book-errata td{padding:8px 9px}
+  .book-appendix tbody th{width:auto;min-width:84px}
+  .book-toc ol{columns:1}
+  .source-grid{grid-template-columns:1fr}
+  .appendix-jump ul{gap:5px 14px}
+}
